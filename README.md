@@ -6,6 +6,6 @@
 
 1000 lights on 1000 individual instanced meshes at 60fps, can we get a proper web based forward+ engine now? 
 
-Works about the same in WebGL or WebGPU. Initial compilation time is just slow as you scale up.
+Works about the same in WebGL or WebGPU. Initial compilation time is just slow as you scale up. It starts getting VERY slow after 800 lights due to the recursive compilation process.
 
 Just open the HTML file in browser, it will use cdn links to pull BabylonJS. 
