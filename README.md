@@ -8,4 +8,6 @@
 
 Works about the same in WebGL or WebGPU. Initial compilation time is just slow as you scale up. It starts getting VERY slow after 800 lights due to the recursive compilation process.
 
+Note you can extend this with instances but each instance uses the same parent material so instanced meshes need to be close to the maximum of 4 light sources that can effect a single material. You can sort of fake a forward+ scene this way and reassign affected meshes on the fly CPU-side but this is not as efficient as proper modern lighting engines.
+
 Just open the HTML file in browser, it will use cdn links to pull BabylonJS. 
