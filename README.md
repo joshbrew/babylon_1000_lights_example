@@ -2,7 +2,7 @@
 
 ### [Live Link](https://babylon-1000-lights.netlify.app/)
 
-<img width="587" alt="Capture" src="https://github.com/joshbrew/babylon_1000_lights_on_instances_example/assets/18196383/bbcc31ab-297b-4c8d-a5a4-a2440338ba90">
+<img width="587" alt="Capture" src="https://github.com/joshbrew/babylon_1000_lights_example/assets/18196383/f01fea3d-ecd2-487a-b8f2-f9868349b140">
 
 1000 lights on 1000 individual meshes at 60fps, can we get a proper web based forward+ engine now? 
 
